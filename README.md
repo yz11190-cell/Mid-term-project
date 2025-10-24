@@ -40,7 +40,7 @@ Debt & Risk: Debt_to_equity, Beta, current_ratio.
 Dividends: DividendYield.
 Derived Metrics: Volatility, Bollinger_Band_Width.
 
-4. Analysis
+Analysis
 The analysis was conducted in three progressive layers, moving from broad correlations to specific filters.
 
 Correlation Analysis of Financial Indicators
@@ -50,7 +50,7 @@ Key Findings & Interpretation:
 Debt & Profitability: A moderate positive correlation was observed between Debt_to_equity and profit_margin/return_on_equity. This suggests that, within the S&P 500, many profitable companies strategically use debt (leverage) to amplify their returns on equity.
 EBITDA & Marketcap: A strong positive correlation was observed between EBITDA and Marketcap. EBITDA is the ultimate measure of a firm's operating profitability since non-operational elements such as income taxes, depreciation & amortization are excluded. Market cap reflects the collective market judgment of that company's worth. In financial valuation, an equity is valuated based on how much cash it will generate in the future. In our case, higher profitability reflected by high EBITDA shows more cashflow in the future, and thus investors think it's worth more, and thus market cap is higher as a result.
 
-5. Quantitative Investment Filter
+Quantitative Investment Filter
 To translate our analysis into an actionable strategy, we designed two strict multi-criteria filters to identify high-quality companies trading at reasonable valuations. The filter criteria were:
 
 ROE > 0.08
